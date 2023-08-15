@@ -1,7 +1,10 @@
 package mendes.botecchia.dara.galeriapublica;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.lifecycle.AndroidViewModel;
 
+import android.app.Application;
 import android.os.Bundle;
 
 public class MainActivity extends AppCompatActivity {
