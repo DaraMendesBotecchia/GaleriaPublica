@@ -8,27 +8,28 @@
 
     <FrameLayout
         android:id="@+id/fragContainer"
-        android:layout_width="412dp"
-        android:layout_height="582dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/btNav"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.496">
+        app:layout_constraintTop_toTopOf="parent">
 
     </FrameLayout>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/btNav"
-        android:layout_width="412dp"
-        android:layout_height="73dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_500"
         app:itemBackground="@color/purple_500"
+        app:itemIconTint="@color/white"
         app:itemTextColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:menu="@menu/botton_nav_menu"
-        tools:layout_editor_absoluteY="656dp">
+        app:menu="@menu/botton_nav_menu">
 
     </com.google.android.material.bottomnavigation.BottomNavigationView>
 
